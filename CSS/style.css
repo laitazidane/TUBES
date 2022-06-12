@@ -72,11 +72,9 @@
   display: block;
   visibility: visible;
   opacity:1;
-  transform: translateY(0px);
+  transform: translateY(10px);
   transition:.5s ease all;
 }
-
-
   
 
 .navbar ul {
@@ -93,10 +91,6 @@
   .nav-link{
     color: white;
   }
-
-  .navbar .dropdown-menu{
-
-  }
   
 
   /* end navbar */
@@ -109,7 +103,7 @@
 
   }
 .jumbotron{
-  height: 706px;
+  height: 720px;
 }
 
   /* Akhir Jumbroton Swipper  */
@@ -117,7 +111,9 @@
   /* ABOUT */
 
 .about{
-  height: 701px;
+  height: auto;
+  padding-bottom: 130px;
+  
 }
 
 .col-sm-12desc-about h3::after{
@@ -125,15 +121,11 @@
   width: 120px;
   height: 4px;
   border-radius: 5px;
-  display: inline-block;
   background: #FF1818;
   margin: 4px 10px;
 
 }
 
-.col-sm-12desc-about{
-  
-}
 
 .row-about{
   justify-items: ;
@@ -143,8 +135,59 @@
     width: auto;
     border-radius: 15px;
   }
+
+  .about .btn:hover{
+    font-weight: bold;
+  }
   /* END ABOUT */
 
+  /* STRUKTUR ORGANISASI  */
+  .struktur{
+    height: auto;
+    background: #001D6E;
+    color: #fff;
+    padding-bottom: 90px;
+  }
+
+  .col-sm-12-struktur a::after{
+    content: "";
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;
+    margin: 4px 10px;
+  
+  }
+
+  .card-body a::after{
+    content: "";
+    width: 80px;
+    height: 3px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;    
+  }
+
+  .card-body a{
+   
+  }
+
+  .col-sm-12-struktur a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .card-img-top{
+    
+  }
+
+  .struktur .row-struktur{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  /* END STRUKTUR ORGANISASI  */
 
 
 
