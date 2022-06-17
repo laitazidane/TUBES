@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rancho&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -18,12 +18,12 @@
 }
 
 .navbar{
-    color: #fff;
-    background-color: #001D6E;
+    color: #000;
+    background: #fff;
 }
 
 .navbar .btn{
-  background-color: #FF1818;
+  background-color: #001D6E;
   font-size: 15px;
   border: none;
   width: 100px;
@@ -36,7 +36,7 @@
 
 .navbar  li .active{
   color:#fff;
-  border-bottom: 3px solid #FF1818;
+  border-bottom: 3px solid #001D6E;
   width: 100%;    
   border-radius: 1px;
   transition: 0.5s ease;
@@ -72,7 +72,7 @@
   display: block;
   visibility: visible;
   opacity:1;
-  transform: translateY(10px);
+  transform: translateY(5px);
   transition:.5s ease all;
 }
   
@@ -103,7 +103,8 @@
 
   }
 .jumbotron{
-  height: 720px;
+  height: auto;
+  padding-bottom: 130px;
 }
 
   /* Akhir Jumbroton Swipper  */
@@ -118,18 +119,16 @@
 
 .col-sm-12desc-about h3::after{
   content: "";
-  width: 120px;
+  width: 80px;
   height: 4px;
   border-radius: 5px;
+  display: inline-block;
   background: #FF1818;
   margin: 4px 10px;
-
 }
 
 
-.row-about{
-  justify-items: ;
-}
+
   .img-fluid{
     max-width: 100%;
     width: auto;
@@ -162,15 +161,12 @@
 
   .card-body a::after{
     content: "";
-    width: 80px;
+    width: 70px;
     height: 3px;
     border-radius: 5px;
     display: inline-block;
-    background: #FF1818;    
-  }
-
-  .card-body a{
-   
+    background: #FF1818;
+    margin-left: 90px;    
   }
 
   .col-sm-12-struktur a{
@@ -178,9 +174,6 @@
     color: #fff;
   }
 
-  .card-img-top{
-    
-  }
 
   .struktur .row-struktur{
     padding-top: 10px;
@@ -189,7 +182,72 @@
   }
   /* END STRUKTUR ORGANISASI  */
 
+  /* BERITA */
+  .berita{
+    height: auto;
+    padding-bottom: 90px;
+  }
 
+  .berita .row-berita{
+    padding-top: 20%;
+  }
+
+  .berita .row-card-berita{
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 7px;  
+  }
+
+  .card-title-berita{
+    font-weight: bold;
+  }
+  /* END BERITA */
+
+
+  /*  GALERI */
+  .galeri{
+    height: auto;
+    background: #001D6E;
+    color: #fff;
+    padding-bottom: 90px;
+  }
+
+  .row-galeri h3::after{
+    content: "";
+    width: 83px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;
+    margin: 4px 10px;
+  }
+  /* END GALERI */
+
+  /* LOKASI */
+
+  .lokasi{
+    height: auto;
+  }
+
+  .maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    
+  }
+
+  .maps iframe{
+    padding-top: 20px;
+    border-radius: 5px;
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+    
+  }
+
+  /* END LOKASI */
 
 
 
