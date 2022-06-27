@@ -57,19 +57,17 @@
 
 .dropdown-menu li .dropdown-item{
   text-align: center;
-  transition: all .5s ease;
+  transition: all .5s ease-in-out;
   transform: translateY(0);
 }
 
 .dropdown-menu {
-  display: block;
   visibility: hidden;
   opacity:0;
   transform: translateY(-50px);
   transition:.5s ease all;
 }
 .dropdown-menu.show {
-  display: block;
   visibility: visible;
   opacity:1;
   transform: translateY(5px);
@@ -92,7 +90,6 @@
     color: white;
   }
   
-
   /* end navbar */
 
   /* Jumbroton Swipper */
@@ -129,7 +126,7 @@
 
 
 
-  .img-fluid{
+ .about .img-fluid{
     max-width: 100%;
     width: auto;
     border-radius: 15px;
@@ -165,8 +162,7 @@
     height: 3px;
     border-radius: 5px;
     display: inline-block;
-    background: #FF1818;
-    margin-left: 90px;    
+    background: #FF1818;   
   }
 
   .col-sm-12-struktur a{
@@ -179,6 +175,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     
+  }
+
+  .card{
+    margin: auto;
   }
   /* END STRUKTUR ORGANISASI  */
 

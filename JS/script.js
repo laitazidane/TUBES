@@ -35,3 +35,11 @@ var swiper = new Swiper(".home-slider", {
       },
     },
   });
+
+  function submitDaftar(){
+    swal("Daftar Akun Berhasil!", "", {
+      icon: "success",
+    }).then((value) => {
+      window.location.href = "login.html"
+    });;
+  }

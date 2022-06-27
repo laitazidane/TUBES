@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rancho&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar .navbar-brand{
+  margin-left: 2%;
+  
+}
+
+.navbar-brand, .navbar-brand:hover{
+  font-family: rancho; 
+  font-weight: 200px;
+  color: #fff;
+  
+}
+
+.navbar{
+    color: #000;
+    background: #fff;
+}
+
+.navbar .btn{
+  background-color: #001D6E;
+  font-size: 15px;
+  border: none;
+  width: 100px;
+
+}
+
+.navbar .btn:hover{
+  font-weight: bold;
+}
+
+.navbar  li .active{
+  color:#fff;
+  border-bottom: 3px solid #001D6E;
+  width: 100%;    
+  border-radius: 1px;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+
+.navbar li .nav-link:hover{
+  font-weight: bold;
+  color: #fff;
+}
+
+.dropdown-menu li .dropdown-item:hover{
+  background: #001D6E;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dropdown-menu li .dropdown-item{
+  text-align: center;
+  transition: all .5s ease-in-out;
+  transform: translateY(0);
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  opacity:0;
+  transform: translateY(-50px);
+  transition:.5s ease all;
+}
+.dropdown-menu.show {
+  visibility: visible;
+  opacity:1;
+  transform: translateY(5px);
+  transition:.5s ease all;
+}
+  
+
+.navbar ul {
+    
+    list-style: none;
+    position: sticky;    
+    
+  }
+
+  .navbar li{
+    display: flex;
+  }
+
+  .nav-link{
+    color: white;
+  }
+  
+/* dropdown akun */
+  .nav-item{ 
+    padding-right: 30px;
+  }
+  /* end navbar */
+
+  /* Jumbroton Swipper */
+  .swiper-container .image{
+    width: 100%;
+    height: 600px;
+
+
+  }
+.jumbotron{
+  height: auto;
+  padding-bottom: 130px;
+}
+
+  /* Akhir Jumbroton Swipper  */
+
+  /* ABOUT */
+
+.about{
+  height: auto;
+  padding-bottom: 130px;
+  
+}
+
+.col-sm-12desc-about h3::after{
+  content: "";
+  width: 80px;
+  height: 4px;
+  border-radius: 5px;
+  display: inline-block;
+  background: #FF1818;
+  margin: 4px 10px;
+}
+
+
+
+ .about .img-fluid{
+    max-width: 100%;
+    width: auto;
+    border-radius: 15px;
+  }
+
+  .about .btn:hover{
+    font-weight: bold;
+  }
+  /* END ABOUT */
+
+  /* STRUKTUR ORGANISASI  */
+  .struktur{
+    height: auto;
+    background: #001D6E;
+    color: #fff;
+    padding-bottom: 90px;
+  }
+
+  .col-sm-12-struktur a::after{
+    content: "";
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;
+    margin: 4px 10px;
+  
+  }
+
+  .card-body a::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;   
+  }
+
+  .col-sm-12-struktur a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  .struktur .row-struktur{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .card{
+    margin: auto;
+  }
+  /* END STRUKTUR ORGANISASI  */
+
+  /* BERITA */
+  .berita{
+    height: auto;
+    padding-bottom: 90px;
+  }
+
+  .berita .row-berita{
+    padding-top: 20%;
+  }
+
+  .berita .row-card-berita{
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 7px;  
+  }
+
+  .card-title-berita{
+    font-weight: bold;
+  }
+  /* END BERITA */
+
+
+  /*  GALERI */
+  .galeri{
+    height: auto;
+    background: #001D6E;
+    color: #fff;
+    padding-bottom: 90px;
+  }
+
+  .row-galeri h3::after{
+    content: "";
+    width: 83px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF1818;
+    margin: 4px 10px;
+  }
+  /* END GALERI */
+
+  /* LOKASI */
+
+  .lokasi{
+    height: auto;
+  }
+
+  .maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    
+  }
+
+  .maps iframe{
+    padding-top: 20px;
+    border-radius: 5px;
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+    
+  }
+
+  /* END LOKASI */
+
+
+
+
+
+  

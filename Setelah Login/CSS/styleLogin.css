@@ -1,0 +1,18 @@
+/* Page LOGIN */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;    
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(0, 29, 110), rgba(255, 24, 24));    
+    }
+  /* END PAGE LOGIN */
+
+  .form-outline:focus{
+    border-color: 2px solid #FF1818;
+  }
+
+  .bg-glass{
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
